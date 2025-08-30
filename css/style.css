@@ -1,0 +1,399 @@
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 10);
+}
+
+header div, header nav{
+    width: 50%;
+}
+
+.header-portfolio{
+    color: black;
+    text-decoration: none;
+    font-size: 38px;
+}
+
+.dev-azul {
+    color: lightskyblue;
+    font-size:43px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-left: 0;
+    list-style: none;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color:black;
+    font-family:"Roboto Mono";
+}
+
+.seccion-superior{
+    text-align: center;
+    font-weight: bold;
+}
+
+.mini-header{
+    margin-top: 40px;
+    font-size: 20px;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(14, 14, 14, 0.2);
+    padding: 4px;
+}
+
+main {
+    margin-top: 8px;
+    padding-bottom: 15px;
+}
+
+.title {
+    color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    font-family:"Qwitcher Grypen";
+    font-size: 170px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.boton-contactar{
+    background:none;
+    border:none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.boton-descargar{
+    display:flex;
+    align-items: center;
+    gap: 4px;
+    color: lightskyblue;
+    border: 2px solid lightskyblue;
+    border-radius: 6px;
+    font-weight:bold;
+    background-color: #ffff;
+    font-size: 23px;
+    ;
+}
+
+.icono-boton {
+    padding: 6px;
+    width: 20px;
+    height: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "roboto mono";
+    font-size: 50px;
+}
+
+.parrafo-top{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.enlaces {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:center;
+    gap: 35px;
+    ;
+}
+
+.boton-git{
+    color: black;
+    border: 2px solid white;
+    border-radius: 100px;
+    outline: 2px rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(14, 14, 14, 0.3);
+    padding: 2px;
+}
+
+.boton-lkd{
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: 100px;
+    outline: 2px;
+    box-shadow: 0 0 10px rgba(14, 14, 14, 0.3);
+    padding: 2px;
+    
+}
+
+.segunda-seccion{
+    background-color: black;
+    margin: 0;
+    
+}
+
+.title2-tecnologias{
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    color: white;
+    margin-top: 50px;
+    padding-top:40px;
+}
+
+.exp-dev{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    margin-top: 70px;
+}
+
+.tec-boxes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.frontend{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    font-family:"Roboto Mono";
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    width: 24%;
+    height: 290px;
+    justify-content: space-around;
+}
+
+.front-title{
+    font-size: 31px;
+    font-weight: bold;
+    color: lightskyblue;
+}
+
+.front-icon{
+    padding-top:15px;
+}
+
+.front-mid{
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    width: 100%;
+}
+
+.front-left{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.front-right{
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+    
+}
+
+.backend{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    font-family:"Roboto Mono";
+    border: 8px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    width: 24%;
+    height: 290px;
+    justify-content: space-around;
+}
+
+.back-title{
+    font-size: 31px;
+    font-weight: bold;
+    color: lightskyblue ;
+}
+
+.back-icon{
+    padding-top:15px;
+}
+
+.back-mid{
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    width: 90%;
+}
+
+.back-left{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.back-right{
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.movile{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:"Roboto Mono";
+    border: 8px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    width: 24%;
+    height: 290px;
+    justify-content: space-around;
+}
+
+.movile-title{
+    font-size: 31px;
+    font-weight: bold;
+    color: lightskyblue ;
+    ;
+}
+
+.movile-icon{
+    padding-top:15px;
+}
+
+.movile-mid{
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    width: 90%;
+}
+
+.movile-left{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.movile-right{
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+@media (max-width: 800px){
+
+    body{
+        margin: 0;
+        background-image: linear-gradient(white 0%, white 26%,black 54%);
+    }
+
+    .boton-git{
+        border: 2px solid rgb(91, 89, 89);
+    }
+
+    .boton-lkd{
+        border: 2px solid rgb(91, 89, 89);
+    }
+
+    .boton-descargar{
+        background-color: transparent;
+    }
+
+    .segunda-seccion {
+        background-color:transparent;
+    }
+
+    .dev-azul{
+        font-size: 30px;
+    }
+
+    .header-portfolio{
+        font-size: 27px;
+    }
+
+    .mini-header{
+        font-size: 15px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .title{
+        font-size: 120px;
+    }
+
+    .parrafo-top{
+        font-size: 20px;
+    }
+
+    .title2-tecnologias{
+        font-size: 30px;
+    }
+
+    .exp-dev{
+        font-size: 20px;
+    }
+    
+    .tec-boxes{
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .frontend {
+        width: 60%;
+        height: 220px;
+        margin-bottom: 15px;
+        margin-top: -30px;
+    }
+
+    .front-mid{
+        font-size: 16px;
+        width: 70%;
+    }
+
+    .backend{
+        width: 60%;
+        height: 220px;
+        margin-bottom: 15px;
+    }
+
+    .back-mid{
+        font-size: 16px;
+    }
+
+    .movile{
+        width: 60%;
+        height: 220px;
+        margin-bottom: 15px;
+    }
+
+    .movile-mid{
+        font-size: 16px;
+        width: 60%;
+    }
+
+}
