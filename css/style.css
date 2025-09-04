@@ -148,7 +148,6 @@ h1 {
 .segunda-seccion{
     background-color: black;
     margin: 0;
-    
 }
 
 .title2-tecnologias{
@@ -336,8 +335,6 @@ h1 {
         position: absolute;
         top: 60px;
         right: 10px;
-        background: #ffffff;
-        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(72, 72, 199, 1) 45%, rgba(0, 212, 255, 1) 100%);
         padding: 5px;
         border-radius: 10px;
         
